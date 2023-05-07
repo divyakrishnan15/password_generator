@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 let password_gen_obj = {
   final_password :'',
   user_input:{limit_val :'',uppercase_val:'',lowercase_val:'',number_val:'',symbol_val:''},
@@ -253,6 +252,5 @@ let password_gen_obj = {
   },
 };
 
->>>>>>> passgen
 
 
