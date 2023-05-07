@@ -1,5 +1,4 @@
 
-
 let password_gen_obj = {
   final_password :'',
   user_input:{limit_val :'',uppercase_val:'',lowercase_val:'',number_val:'',symbol_val:''},
@@ -50,21 +49,30 @@ let password_gen_obj = {
                           const up_rand = random_gen_main(65,90)
                           console.log("Uppercase rand = ",up_rand)
                           return up_rand
+
                           // return random_gen_main(65,90)
+
+
                         }
                       
                         const lowerCaseVal=()=>{
                           const lw_rand = random_gen_main(97,122)
                           console.log("Lowercase rand = ",lw_rand)
                           return lw_rand
+
                           // return random_gen_main(97,122)
+
+
                         }
                       
                         const numberVal=()=>{
                           const num_rand = random_gen_main(48,57)
                           console.log("Number rand = ",num_rand)
                           return num_rand
+
                           // return random_gen_main(48,57)
+
+
                         }
                       
                         const symbolVal=()=>{
